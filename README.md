@@ -3,12 +3,12 @@ Predictive modeling that forecast Water Quality Index for the city of Greensboro
 
 ## Load libraries
 
-## Header names are called for later use in the program. Load and frame dataset along with default header.
+### Header names are called for later use in the program. Load and frame dataset along with default header.
 names = ['Cd','Cu','Pb','Zn','Alkal','BOD','COD','Fecal_Col','Hardness','NO2','NO3','TDS',
          'TSS','TKN','Total_P','Temp','DO','DO%','pH','Turb','Cond','Level','Flow','WQI']
 data = read_csv('/Users/mymac/Documents/bin/WQI_data.csv')
 
-## Run Descriptive Statistics of raw data for data insight and understanding for further operations (such as cleaning and dimensioning)
+### Run Descriptive Statistics of raw data for data insight and understanding for further operations (such as cleaning and dimensioning)
 - summarize distribution of each attributes
 - correlation
   ### Unimodal Data Visualizations 
@@ -19,22 +19,22 @@ data = read_csv('/Users/mymac/Documents/bin/WQI_data.csv')
 - scatter plot matrix
 - correlation matrix
 
-## Clean dataset by removing empty cells for better visualization
+### Clean dataset by removing empty cells for better visualization
 - Peek into clean data
 
-## Normalize dataset about a mean point for good data population distribution
+### Normalize dataset about a mean point for good data population distribution
 - Peek into data
 
-## Split-out Training and Testing Datasets in ratio 4:1, Training:Testing at random seed value of 7 to initiate the program
+### Split-out Training and Testing Datasets in ratio 4:1, Training:Testing at random seed value of 7 to initiate the program
 - Peek into X and Y Training datasets 
 
-## Data pre-processing 
+### Data pre-processing 
   ### Features scaling
 Scale data features to standardize the independent features present in the data in a fixed range in order to handle highly varying magnitudes features units 
 ### identify and remove outliers in the training dataset
 - Peek into data
 
-## Apply PCA to reduce the numbers of features from 23 to the important components that affect WQI prediction in accordance with model
+### Apply PCA to reduce the numbers of features from 23 to the important components that affect WQI prediction in accordance with model
 - Peek into new data dimension
 
 ## Carry out Baseline Algorithm Evaluation within 10-folds iteration while using a negative scoring for model accuracy check
