@@ -3,7 +3,7 @@ Predictive modeling that forecast Water Quality Index for the city of Greensboro
 
 ## Load libraries
 
-### Header names are called for later use in the program. Load and frame dataset along with default header.
+- Header names are called for later use in the program. Load and frame dataset along with default header.
 
 ### Run Descriptive Statistics of raw data for data insight and understanding for further operations (such as cleaning and dimensioning)
 - summarize distribution of each attributes
