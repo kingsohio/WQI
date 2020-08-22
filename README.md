@@ -39,28 +39,17 @@ Scale data features to standardize the independent features present in the data 
 - Peek into new data dimension
 
 ## Carry out Baseline Algorithm Evaluation within 10-folds iteration while using a negative scoring for model accuracy check
-
-### Preparing algorithms to be tested among six models (3 non-linear and 3 linear models for unbiase prediction)
-
-### Evaluate each model in turn and check results
-
-### Compare Algorithms
-
-### Standardize the dataset within each model pipelines and compare algorithms again
-
-### Use KNN Algorithm tuning to improve power of model
-
-### Display Statistics
+Preparing algorithms to be tested among six models (3 non-linear and 3 linear models for unbiase prediction)
+Evaluate each model in turn and check results
+Compare Algorithms
+Standardize the dataset within each model pipelines and compare algorithms again
+Use KNN Algorithm tuning to improve power of model
+Display Statistics
 
 ## Carry out hybrid method known as Ensembles methods to compare model outcome with the Baseline Algorithm method
-- Print stats    
-
-### Compare Algorithms
-
-### Tune scaled GBM to improve model power
-
-### Display Statistics    
-
-### Finalize model -  prepare the model for prediction
-
-### Transform the validation dataset
+Print stats    
+Compare Algorithms
+Tune scaled GBM to improve model power
+Display Statistics    
+Finalize model -  prepare the model for prediction
+Transform the validation dataset
